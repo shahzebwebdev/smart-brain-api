@@ -1,0 +1,24 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"main": "script.js",
+	"scripts": {
+		"start": "forever -w ./server.js"
+	},
+	"keywords": [],
+	"author": "Sagar",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.18.2",
+		"clarifai": "^2.9.1",
+		"cors": "^2.8.5",
+		"express": "^4.16.2",
+		"forever": "^3.0.0",
+		"knex": "^0.21.2",
+		"nodemon": "^2.0.4",
+		"pg": "^8.3.0"
+	},
+	"devDependencies": {},
+	"description": ""
+}
